@@ -231,7 +231,6 @@ linkcheck_ignore = [
     "https://git.launchpad.net/launchpad/tree/doc/bug-export.rnc",  #broken. Process may need to be replaced/upgraded
     "http://code.beta.launchpad.net/beagle",  #broken, bazaar being shut down
     r"https://launchpad\.net/frobnob/.*",
-    "Trunk/Glue",  #  needs update
     "https://git.launchpad.net/launchpad-mojo-specs/tree/mojo-lp-git/services",  #private
     "https://deployable.ols.canonical.com/project/launchpad-db",  #private
     "irc.libera.chat",  #this is not an HTTP link

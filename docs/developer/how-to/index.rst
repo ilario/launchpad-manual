@@ -66,6 +66,7 @@ database.
 - :ref:`Test CLI scripts <test-cli-scripts>`
 - :ref:`Handle exceptions <handle-exceptions>`
 - :ref:`Preserve query count <preserve-query-count>`
+- :ref:`Profile Launchpad performance <profile-launchpad>`
 - :ref:`Run Launchpad with Chameleon template engine <run-launchpad-with-chameleon-template-engine>`
 - :ref:`Generate Launchpad API docs <launchpad-api-docs-generation>`
 - :ref:`Use codehosting locally <use-codehosting-locally>`
@@ -85,6 +86,14 @@ troubleshoot across multiple test layers.
 - :ref:`Debug stories and pagetests <debug-stories-pagetests>`
 - :ref:`Troubleshoot breakpoint issues when running multiple test layers <troubleshoot-breakpoints-tests>`
 
+Testing
+-------
+
+Launchpad has a large test suite. These guides cover running the tests locally
+and, over time, writing them and measuring their coverage.
+
+- :ref:`Running tests <running-tests>`
+
 .. toctree::
    :hidden:
 
@@ -93,3 +102,4 @@ troubleshoot across multiple test layers.
    common-development-tasks/index
    launchpad-development-tips/index
    debug/index
+   testing/index
