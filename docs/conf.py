@@ -245,6 +245,8 @@ linkcheck_ignore = [
     r"https://wiki\.canonical\.com/.*",  #private
     r"https://translations\.launchpad\.net/.*",
     r"http://localhost.*",
+    "https://web.archive.org/",  # rate limited
+    "https://canonical-launchpad-admin-manual.readthedocs-hosted.com/",  # redirects to readthedocs.com which is rate limited
     #Uncertain Dead - May not be replaceable
     "https://requesttracker.com/request-tracker/",  #URL is rate limited
 ]
