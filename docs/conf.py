@@ -208,6 +208,7 @@ linkcheck_ignore = [
     r"http://sourceforge\.net/.*", #ignore, as works in browser
     "http://127.0.0.1:8000",
     r"https://app\.diagrams\.net.*",  # ignore, as works in browser, but link checker has some issues
+    "https://archive.ph/CAqQm",  # sometimes gives an invalid HTTPS certificate
     r"http://www\.searchtools\.com/.*",  #ignore, example link, was never intended to be clicked
     "https://bazaar.launchpad.net/lp-production-config",  # private
     "https://bazaar.staging.launchpad.net",  # broken, unclear why XXX 2023-10-14: jugmac00- check with team
