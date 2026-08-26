@@ -205,6 +205,9 @@ if os.environ.get("READTHEDOCS"):
 # A regex list of URLs that are ignored by 'make linkcheck'
 linkcheck_ignore = [
     r"https://matrix\.to/.*",
+    r"http://www\.gnu\.org/.*",  # rate limited
+    r"https://www\.gnu\.org/.*",  # rate limited
+    r"http://www.fsf\.org/.*",  # rate limited
     r"http://sourceforge\.net/.*", #ignore, as works in browser
     "http://127.0.0.1:8000",
     r"https://app\.diagrams\.net.*",  # ignore, as works in browser, but link checker has some issues
