@@ -37,8 +37,8 @@ Alternatively, you can use the GPG command-line tool to create and manage your
 OpenPGP keys, which is available on most operating systems.
 
 If you're using any operating system that doesn't come with GPG, see the
-`GPG download page <https://gnupg.org/download/index.html>`_. You may also
-prefer to follow the
+`GPG download page <http://gnupg.org/download/index.en.html>`_. You may also
+prefer to follow the keypair generation process specified in the
 `GPG manual <https://www.gnupg.org/gph/en/manual.html#AEN26>`_.
 
 For the purposes of this guide, we assume you're using the "Passwords and

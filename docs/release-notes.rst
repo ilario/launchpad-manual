@@ -7,6 +7,22 @@
 Release Notes
 =============
 
+August 2026
++++++++++++
+
+28 August
+
+- Allowed pin priority setting for PPA dependencies. For more information, see
+  `Launchpad Manual create a Personal Package Archive page
+  <https://ubuntu.com/docs/launchpad/user/how-to/packaging/create-ppa/>`_.
+- Added ``maintained_by``, ``changed_by``, ``signed_by``, ``packageset`` and ``team``
+  filters to ``Archive.getPublishedSources()``.
+- Added new ``order_by`` keys to ``Archive.getPublishedSources()``. It now also
+  allows to order by multiple keys.
+- Fixed bug that caused package picker to crash when searching for distribution
+  packages to target for bugs reported on projects.
+  See `bug report <https://code.launchpad.net/bugs/2161954>`_
+
 July 2026
 +++++++++
 
