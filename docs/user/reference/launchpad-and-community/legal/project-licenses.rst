@@ -31,7 +31,7 @@ one organization but not the other, we'll consider it on a
 case-by-case basis (but it's incredibly rare that that would come up).
 
 - Boost
-    - http://www.boost.org/LICENSE_1_0.txt
+    - https://cs.brown.edu/people/jwicks/boost/more/license_info.html
 
 - CeCILL, CeCILL-B, and CeCILL-C
     - http://www.cecill.info/index.en.html 

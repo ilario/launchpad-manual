@@ -222,6 +222,7 @@ linkcheck_ignore = [
     "https://launchpad.net/canonical-mojo-specs",  # private
     r"https://launchpad\.test.*",  #ignore, local test setup
     r"https://bugs\.launchpad\.net/\+code/.*",
+    r"https://bugs\.qastaging\.launchpad\.net/.*",
     r"http://code\.beta\.launchpad\.net/.*",
     "https://sourceforge.net/p/diacritice/code/HEAD/tree/",  #ignore, as works in browser, but link checker has some issues
     "http://epydoc.sourceforge.net/fields.html",  #ignore, as works in browser, but link checker has some issues
@@ -235,6 +236,7 @@ linkcheck_ignore = [
     "https://git.launchpad.net/launchpad/tree/doc/bug-export.rnc",  #broken. Process may need to be replaced/upgraded
     "http://code.beta.launchpad.net/beagle",  #broken, bazaar being shut down
     r"https://launchpad\.net/frobnob/.*",
+    "https://realpython.com/vim-and-python-a-match-made-in-heaven/",  # 403 Error
     "https://git.launchpad.net/launchpad-mojo-specs/tree/mojo-lp-git/services",  #private
     "https://deployable.ols.canonical.com/project/launchpad-db",  #private
     "irc.libera.chat",  #this is not an HTTP link
